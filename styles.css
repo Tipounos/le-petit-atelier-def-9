@@ -1764,8 +1764,18 @@ input[type="range"]::-moz-range-thumb {
     border: none;
 }
 
+.range-mobile {
+    display: none;
+}
+
 @media (max-width: 900px) {
-    
+    .range-desktop {
+        display: none;
+    }
+
+    .range-mobile {
+        display: block;
+    }
 }
 
 
